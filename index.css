@@ -66,22 +66,16 @@
         width: 70%;
     }
 }
-@media (min-width: 321px) and(max-width: 992px) {
-    *{
-        font-size: smaller;
-        /* width: 100%; */
-    }
+@media (min-width: 321px) and (max-width: 600px) {
     .Child-Box{
-        width: 80%;
-        display: none;
+        width: 60%;
+        /* display: none; */
     }
-    .header{
-        font-size: 10px;}
-    .little{
-        font-size: 10px;
-    }
-    .name{
-        font-size: 8px;
+}
+@media (min-width: 601px) and (max-width: 992px) {
+    .Child-Box{
+        width: 50%;
+        /* display: none; */
     }
 }
 @media (min-width: 993px) and (max-width: 1200px){
